@@ -1,0 +1,35 @@
+.catBox {
+    background-color: #e2efff;
+    border-radius: 10px;
+    padding-top: 170px;
+    padding-left: 60px;
+    padding-bottom: 200px;
+}
+
+.cattributes {
+    padding: 25px;
+    background-color: #ededed;
+    border-radius: 10px;
+}
+
+.messageCreation {
+    padding: 25px;
+    background-color: #ededed;
+    border-radius: 10px;
+}
+
+.dnaDiv {
+    position: relative;
+
+}
+
+.catbox2 {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+#newcat {
+    position: relative;
+}

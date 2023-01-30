@@ -1,0 +1,38 @@
+.movingHead {
+    animation: moveHead 3s infinite;
+}
+
+.movingEyes {
+    animation: moveEyes 3s infinite;
+}
+
+
+@keyframes moveHead {
+    0% {
+        transform: rotate(0deg);
+    }
+    30% {
+        transform: rotate(5deg);
+    }
+    60% {
+        transform: rotate(-5deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes moveEyes {
+    0% {
+        border: none
+    }
+    30% {
+        border-top: 6px solid
+    }
+    60% {
+        border-left: 6px solid
+    }
+    100% {
+        border: none
+    }
+}
